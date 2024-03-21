@@ -141,7 +141,7 @@
 2. Vamos Localizar os documentos que cadastramos e iremos acessar ***Outras Acoes > Calculo de frete >  Calcular***;
 3. Aparecerá uma tela informando que este processo tem como objetivo gerar documentos ficais clicaremos em ***OK***;
 4. Na próxima tela o sistema pergunta se desejamos informar o valor do frete manualmente, Como já configuramos a tabela de frete não necessita de informarmos manutalmente, podemos clilcar em ***Não***;
-5. Na próxima tela teremos as informações do calculo do frete, teremos uma tabela parecida com a da tabela de frete, confere os valores se tudo estiver de acordo podemos clicar em ***Comfirmar***;
+5. Na próxima tela teremos as informações do calculo do frete, teremos uma tabela parecida com a da tabela de frete, confere os valores se tudo estiver de acordo podemos clicar em ***Confirmar***;
 6. iremos repetir o processo para todos os documentos em que cadastramos;
 ---
 ## Passo 8 - Puxando o PDF dos CT-e gerados pelo calculo de frete
@@ -152,10 +152,10 @@
 3. Aparecerá uma tabela com uma lista de CT-e gerados na data parametrizada;
 4. Iremos Localizar os CT-e que geramos e clicaremos na coluna Documento no primeiro documento que geramos e vamos copiar os números utilizando o comando `Ctrl + C`, e a mesma coisa no ultimo documento gerado dos complementos;
 5. Teremos algumas opções no rodapé do sistema localize a opção ***Dacte*** e clique nela;
-6. Com os números de documentos cópiados iremos colar eles nos campos de ***Documento De ?*** e ***Documento Até*** respeitando a ordem númerica gerada, depois de informar os números das documentações clicamos em ***OK***;
+6. Com os números de documentos copiados iremos colar eles nos campos de ***Documento De ?*** e ***Documento Até*** respeitando a ordem numérica gerada, depois de informar os números das documentações clicamos em ***OK***;
 7. Na próxima tela que aparecer pode clicar em ***OK***;
 8. O sistema irá perguntar se você deseja substituir o documente com o mesmo nome localizado na pasta onde está sendo salvo, pode clicar em ***SIM***;
-9. Apoós salvaremos o arquivo gerado em uma pasta separada na área de trabalho;
+9. Após salvaremos o arquivo gerado em uma pasta separada na área de trabalho;
 	> **Dica:** Renomeei o arquivo para `CT-e 00009999 - 00009999`, número inicial do documento e número final do documento gerado;
 
 
