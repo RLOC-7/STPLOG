@@ -109,7 +109,54 @@
  11. Feito todo o processo podemos clicar em ***Salvar*** e passar para o próximo documento
      > **Note:** Ao terminar de **salvar** o sistema automaticamente irá abrir a tela de cadastro novamente é só aguardar alguns segundos para começar o próximo cadastro;
 ---
-## Passo 6 | Realizando o Calculo dos CT-e
+## Passo 6 | Ajuste da tabela de frete
 
 1. Antes de realizar o calculo do CT-e precisamos verificar a o valor da tabela de frete para que possamos calcular os CT-e de acordo com os valores enviados pela ***CBA***;
-2. Abriremos uma nova rotina chamada ***Tab. Frete***
+2. Abriremos uma nova rotina chamada ***Tab. Frete***;
+3. Para identificarmos nossa tabela correta, vamos se atentar a 4 colunas dentro do ***Protheus***
+	- Tab.Frete
+	- Descricao
+	- Reg.Origem
+	- Reg.Destino
+4. Vamos indentificar a linha que bater com os dados abaixo
+
+| Tab.Frete| Descricao                          | Reg.Origem   | Reg.Destino 	 |
+|-         |		                           -|		   -   | 		    -  	 |
+| 0037     | FRETE PESO - CBA - POCOS DE CALDAS | DIVINOLANDIA | POCOS DE CALDAS |
+
+5. Após localizar ela vamos clicar em ***Alterar*** ou atalho "a";
+6. Com a nova tela aberta teremos duas abas ***Tabela de frete*** e ***Componentes de frete***, vamos selelionar ***Componentes de frete***;
+7. Teremos uma tabela semelhante a tabela abaixo:
+| Item | Ate (Peso Mercadoria) | Fator Peso 	 | Valor | Fracao | Comp. Tarifa | 
+|  -   |          -            |       -    	 |   -   |    -   |       -      |
+| 01   | 999.999.999,999       | 999.999.999,999 | 30,52 | 1,0000 | Nao          |
+8. Iremos modificar somente o campo de ***Valor***;
+	> **Note:** Para chegar no valor correto do frete utilizamos uma formula básica dividir o valor total c/Icms pelo peso; Exemplo `PREÇO: 76,69 / PESO: 2,66 = 28,83`, dessa forma chegamos ao valor exato da tabela de frete.
+9. Com o valor correto da tabela de Frete conferimos se já está ajustada caso não esteja realizamos o ajuste conforme a formula acima;
+
+---
+## Passo 7 - Realizando o calculo dos CT-e
+
+1. Após configurar a Tabela de frete iremos retornar na rotina de ***Entrada documentos de clientes***;
+2. Vamos Localizar os documentos que cadastramos e iremos acessar ***Outras Acoes > Calculo de frete >  Calcular***;
+3. Aparecerá uma tela informando que este processo tem como objetivo gerar documentos ficais clicaremos em ***OK***;
+4. Na próxima tela o sistema pergunta se desejamos informar o valor do frete manualmente, Como já configuramos a tabela de frete não necessita de informarmos manutalmente, podemos clilcar em ***Não***;
+5. Na próxima tela teremos as informações do calculo do frete, teremos uma tabela parecida com a da tabela de frete, confere os valores se tudo estiver de acordo podemos clicar em ***Comfirmar***;
+6. iremos repetir o processo para todos os documentos em que cadastramos;
+---
+## Passo 8 - Puxando o PDF dos CT-e gerados pelo calculo de frete
+
+1. Na mesma tela de ***Entrada documentos de clientes*** iremos acessar os itens abaixo:
+	> Outras Acoes <->  Calculo de frete <-> CT-e
+2. Teremos uma tela com os parametrôs da consulta, neste parte alteramos somente a data para o dia em que geramos os documentos, Caso a data já esteja de acordo podemos clicar em ***OK***;
+3. Aparecerá uma tabela com uma lista de CT-e gerados na data parametrizada;
+4. Iremos Localizar os CT-e que geramos e clicaremos na coluna Documento no primeiro documento que geramos e vamos copiar os números utilizando o comando `Ctrl + C`, e a mesma coisa no ultimo documento gerado dos complementos;
+5. Teremos algumas opções no rodapé do sistema localize a opção ***Dacte*** e clique nela;
+6. Com os números de documentos cópiados iremos colar eles nos campos de ***Documento De ?*** e ***Documento Até*** respeitando a ordem númerica gerada, depois de informar os números das documentações clicamos em ***OK***;
+7. Na próxima tela que aparecer pode clicar em ***OK***;
+8. O sistema irá perguntar se você deseja substituir o documente com o mesmo nome localizado na pasta onde está sendo salvo, pode clicar em ***SIM***;
+9. Apoós salvaremos o arquivo gerado em uma pasta separada na área de trabalho;
+	> **Dica:** Renomeei o arquivo para `CT-e 00009999 - 00009999`, número inicial do documento e número final do documento gerado;
+
+
+	
