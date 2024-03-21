@@ -156,7 +156,7 @@
 7. Na próxima tela que aparecer pode clicar em ***OK***;
 8. O sistema irá perguntar se você deseja substituir o documente com o mesmo nome localizado na pasta onde está sendo salvo, pode clicar em ***SIM***;
 9. Após salvaremos o arquivo gerado em uma pasta separada na área de trabalho;
-	> **Dica:** Renomeei o arquivo para `CT-e 00009999 - 00009999`, número inicial do documento e número final do documento gerado;
+	> **Dica:** Renomeei o arquivo para `CT-e 00009999 - 00009999`, número inicial do documento e número final do documento gerado, pois pode facilitar na hora de pesquisar no e-mail;
 
 
 	
