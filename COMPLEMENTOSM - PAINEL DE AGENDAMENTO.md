@@ -69,13 +69,13 @@
 ## Passo 5 - Cadastro dos CT-e
 
 - Teremos 8 Campos onde devemos ter bastante atenção na hora de preencher;
-  > Codigo Veic;
-  > Dev. Frete;
-  > Serv.Transp;
-  > Tipo Transp;
-  > C.Custo Cred;
-  > Selec.Origem;
-  > Embalagem;
+  - Codigo Veic;
+  - Dev. Frete;
+  - Serv.Transp;
+  - Tipo Transp;
+  - C.Custo Cred;
+  - Selec.Origem;
+  - Embalagem;
 
 ---
 
