@@ -25,7 +25,7 @@
 1. Primeiro abriremos o Protheus, realizaremos o login com seu usuário e senha;
 2. Confira os dados do sistema **Filial: 100103** | **Ambiente: 05 - Faturamento** se estiver tudo ok, clique em continuar;
 3. Vamos acessar duas rotinas uma chamada **_Pedido de Venda_** e **_NFs-e_**;
-4. Primeiro entre no **_Pedido de Venda_**, teremos uma tela com alguns pedidos iremos escolher o pedido
+4. Primeiro entre no **_Pedido de Venda_**, teremos uma tela com alguns pedidos iremos escolher o pedido abaixo.
 
    > PEDIDO Nº: 000003 - PARA FROTAS PROPRIA
    > **Própria:** segue abaixo as placas referentes a frota própria;
