@@ -62,7 +62,7 @@
    > **`Outras Ações >> Prep.Doc.saída`**
 6. Iremos clicar em **`Avançar >> Avançar >> Avançar >> Finalizar`**, na proxima tela selecione a opção **`RPS;`**
 
-   > **Note:** Antes de avançar neste passo, precisamos conferir a sequência da nota no site ([NFe-cidades](https://www.nfe-cidades.com.br/home/inicial-menu)) e também na rotina **`NFs-e`** dentro do Protheus;
+   > **Note:** Antes de avançar neste passo, precisamos conferir a sequência da nota no site ([NFe-cidades](https://www.nfe-cidades.com.br/landing-page)) e também na rotina **`NFs-e`** dentro do Protheus;
 
    > **Note:** Caso a sequência não esteja de acordo clique duas vezes na opção de **`RPS`** e modifique a numeração para ficar em sequência;
 
@@ -76,7 +76,7 @@
 1. Após parametrizarmos a nota, iremos acessar novamente a rotina de **`NFs-e`**;
 2. Nos parâmetros da rotina confira se **`Serie da nota fiscal`** está como **`RPS`** e a data podemos filtrar de um Mês antes até hoje, depois podemos clicar em **`OK`**;
 3. Vamos localizar a nota que geramos e realizaremos a transmissão da mesma;
-   > **Note:** Sempre confira o valor da nota gerada antes de realizar a transmissão, para evitar cancelamentos desnecessários tanto no sistema Protheus quanto no ([NFe-cidades](https://www.nfe-cidades.com.br/home/inicial-menu));
+   > **Note:** Sempre confira o valor da nota gerada antes de realizar a transmissão, para evitar cancelamentos desnecessários tanto no sistema Protheus quanto no ([NFe-cidades](https://www.nfe-cidades.com.br/landing-page));
 4. Nota localizada iremos acessar nas opções: **`Outras Ações >> Transmissão`**;
 5. teremos uma tela com os parâmetros de `Serie da nota | nota fiscal inicial | nota fiscal final`;
    - `Serie da nota:` sempre **RPS**;
@@ -91,7 +91,7 @@
 
 ### Exemplo
 
-No sistema temos uma tabela com duas colunas que precisam estar de acordo - **`NF Eletr.`** - númeração gerada pelo ([NFe-cidades](https://www.nfe-cidades.com.br/home/inicial-menu)) - **`Número`** - numeração gerada pelo Protheus.
+No sistema temos uma tabela com duas colunas que precisam estar de acordo - **`NF Eletr.`** - númeração gerada pelo ([NFe-cidades](https://www.nfe-cidades.com.br/landing-page)) - **`Número`** - numeração gerada pelo Protheus.
 
 | NF Eletr. | Número    |
 | --------- | --------- |
@@ -101,7 +101,7 @@ No sistema temos uma tabela com duas colunas que precisam estar de acordo - **`N
 
 ## Passo 6 - Baixando as notas no NFe-Cidades {#Passo6}
 
-1. Primeiros acessamos o ([NFe-cidades](https://www.nfe-cidades.com.br/home/inicial-menu)), realizamos o login com o usuário e senha fornecidos;
+1. Primeiros acessamos o ([NFe-cidades](https://www.nfe-cidades.com.br/landing-page)), realizamos o login com o usuário e senha fornecidos;
 2. No canto esquerdo teremos algumas opções iremos acessar a opção **`Solicitações`**;
 3. Na próxima tela clique em **`Documentos emitidos`**;
 4. Teremos alguns filtros modificaremos somente os de data conforme a data de geração da documentação;

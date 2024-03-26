@@ -35,9 +35,4 @@
    > **Note:** Ao acessar a rotina de **`NFs-e`** as notas com a marcação verde precisam ser monitoradas para garantir a comunicação com o sistema NF-e Cidades. Mantenha sempre as notas monitoradas;
 5. Após o monitoramento das notas, retorne ao menu de cancelamento. Selecione a nota estornada e acesse o menu:
     **`Trans Canc`**  ou utilize o atalho **`T`**;
-6. Após a transmissão, acesse o site do([NFe-cidades](https://www.nfe-cidades.com.br/home/inicial-menu)) para verificar se o cancelamento foi transmitido com sucesso.
-
-
-
-
-;
+6. Após a transmissão, acesse o site do([NFe-cidades](https://www.nfe-cidades.com.br/landing-page)) para verificar se o cancelamento foi transmitido com sucesso;
