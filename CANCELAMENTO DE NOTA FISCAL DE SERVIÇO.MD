@@ -9,7 +9,7 @@
    - `Data de emissão até`;
    - `Série de`;
    - `Série até`;
-2. A data deve ser filtrada conforme a data de emissão do documento;
+2. A data deve ser filtrada conforme a data em que ela está sendo cancelada no sistema;
 3. Defina a série como **`RPS`** para ambos os campos;
 4. Após configurar os parâmetros, clique em **`OK`**;
 5. Localize a nota fiscal desejada e selecione-a, em seguida, acesse:
